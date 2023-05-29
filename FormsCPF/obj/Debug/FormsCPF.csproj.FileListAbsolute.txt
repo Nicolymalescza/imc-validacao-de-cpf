@@ -1,0 +1,11 @@
+C:\Users\nicol\OneDrive\Documentos\IFRO\2º ANO\POO\2Bimestre\FormsCPF\FormsCPF\obj\Debug\FormsCPF.csproj.AssemblyReference.cache
+C:\Users\nicol\OneDrive\Documentos\IFRO\2º ANO\POO\2Bimestre\FormsCPF\FormsCPF\obj\Debug\FormsCPF.csproj.SuggestedBindingRedirects.cache
+C:\Users\nicol\OneDrive\Documentos\IFRO\2º ANO\POO\2Bimestre\FormsCPF\FormsCPF\obj\Debug\FormsCPF.Form1.resources
+C:\Users\nicol\OneDrive\Documentos\IFRO\2º ANO\POO\2Bimestre\FormsCPF\FormsCPF\obj\Debug\FormsCPF.Properties.Resources.resources
+C:\Users\nicol\OneDrive\Documentos\IFRO\2º ANO\POO\2Bimestre\FormsCPF\FormsCPF\obj\Debug\FormsCPF.csproj.GenerateResource.cache
+C:\Users\nicol\OneDrive\Documentos\IFRO\2º ANO\POO\2Bimestre\FormsCPF\FormsCPF\obj\Debug\FormsCPF.csproj.CoreCompileInputs.cache
+C:\Users\nicol\OneDrive\Documentos\IFRO\2º ANO\POO\2Bimestre\FormsCPF\FormsCPF\bin\Debug\FormsCPF.exe.config
+C:\Users\nicol\OneDrive\Documentos\IFRO\2º ANO\POO\2Bimestre\FormsCPF\FormsCPF\bin\Debug\FormsCPF.exe
+C:\Users\nicol\OneDrive\Documentos\IFRO\2º ANO\POO\2Bimestre\FormsCPF\FormsCPF\bin\Debug\FormsCPF.pdb
+C:\Users\nicol\OneDrive\Documentos\IFRO\2º ANO\POO\2Bimestre\FormsCPF\FormsCPF\obj\Debug\FormsCPF.exe
+C:\Users\nicol\OneDrive\Documentos\IFRO\2º ANO\POO\2Bimestre\FormsCPF\FormsCPF\obj\Debug\FormsCPF.pdb
