@@ -11,7 +11,7 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace FormsCPF
 {
-
+    //alteração pra ver git e github
     public partial class Form1 : Form
     {
 
@@ -57,7 +57,7 @@ namespace FormsCPF
                 lb_veriCpf.Text = $"Seu cpf é inválido!";
             }  
         }
-
+        
         private void bt_Cancelar_Click(object sender, EventArgs e)
         {
             tx_nome.Clear();
