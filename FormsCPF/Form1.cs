@@ -12,6 +12,7 @@ using static System.Net.Mime.MediaTypeNames;
 namespace FormsCPF
 {
     //alteração pra ver git e github
+    //segunda alteração pra verificar
     public partial class Form1 : Form
     {
 
