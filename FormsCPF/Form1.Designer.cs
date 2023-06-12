@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.lb_nome = new System.Windows.Forms.Label();
             this.lb_cpf = new System.Windows.Forms.Label();
             this.lb_altura = new System.Windows.Forms.Label();
@@ -49,7 +51,9 @@
             this.tx_peso = new System.Windows.Forms.TextBox();
             this.tx_altura = new System.Windows.Forms.TextBox();
             this.lb_veriCpf = new System.Windows.Forms.Label();
+            this.errorF1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.pan_titulo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorF1)).BeginInit();
             this.SuspendLayout();
             // 
             // lb_nome
@@ -138,7 +142,7 @@
             // 
             // pan_titulo
             // 
-            this.pan_titulo.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pan_titulo.BackColor = System.Drawing.Color.Navy;
             this.pan_titulo.Controls.Add(this.lb_titulo);
             this.pan_titulo.Location = new System.Drawing.Point(3, 1);
             this.pan_titulo.Name = "pan_titulo";
@@ -150,7 +154,7 @@
             this.lb_titulo.AutoSize = true;
             this.lb_titulo.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.lb_titulo.Font = new System.Drawing.Font("Rockwell Condensed", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_titulo.Location = new System.Drawing.Point(257, 34);
+            this.lb_titulo.Location = new System.Drawing.Point(248, 41);
             this.lb_titulo.Name = "lb_titulo";
             this.lb_titulo.Size = new System.Drawing.Size(178, 39);
             this.lb_titulo.TabIndex = 11;
@@ -170,7 +174,7 @@
             // bt_Calcular
             // 
             this.bt_Calcular.BackColor = System.Drawing.Color.LightSalmon;
-            this.bt_Calcular.Location = new System.Drawing.Point(342, 420);
+            this.bt_Calcular.Location = new System.Drawing.Point(417, 420);
             this.bt_Calcular.Name = "bt_Calcular";
             this.bt_Calcular.Size = new System.Drawing.Size(110, 42);
             this.bt_Calcular.TabIndex = 12;
@@ -267,11 +271,16 @@
             this.lb_veriCpf.Size = new System.Drawing.Size(0, 17);
             this.lb_veriCpf.TabIndex = 25;
             // 
+            // errorF1
+            // 
+            this.errorF1.ContainerControl = this;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PeachPuff;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(728, 498);
             this.Controls.Add(this.lb_veriCpf);
             this.Controls.Add(this.tx_altura);
@@ -297,6 +306,7 @@
             this.Text = "IMC";
             this.pan_titulo.ResumeLayout(false);
             this.pan_titulo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorF1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -325,6 +335,7 @@
         private System.Windows.Forms.TextBox tx_peso;
         private System.Windows.Forms.TextBox tx_altura;
         private System.Windows.Forms.Label lb_veriCpf;
+        private System.Windows.Forms.ErrorProvider errorF1;
     }
 }
 

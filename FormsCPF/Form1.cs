@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Net.Mime.MediaTypeNames;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace FormsCPF
 {
@@ -15,7 +16,6 @@ namespace FormsCPF
     //segunda alteração pra verificar
     public partial class Form1 : Form
     {
-
         public Form1()
         {
             InitializeComponent();
@@ -31,8 +31,12 @@ namespace FormsCPF
 
         }
 
+
         private void bt_Calcular_Click(object sender, EventArgs e)
         {
+            /*Segundo_Form frm = new Segundo_Form();
+            frm.ShowDialog();*/
+            
             string nome = tx_nome.Text;
             string cpf = mask_cpf.Text;
             int idade = Convert.ToInt32(tx_idade.Text);
@@ -48,7 +52,7 @@ namespace FormsCPF
             lb_resultado3.Text = $"Seu grau é: {c}";
 
 
-            MessageBox.Show(resultadocpf.ToString());
+            //MessageBox.Show(resultadocpf.ToString());
             if (resultadocpf == true)
             {
                lb_veriCpf.Text = $"Seu cpf é valido!";
@@ -58,7 +62,7 @@ namespace FormsCPF
                 lb_veriCpf.Text = $"Seu cpf é inválido!";
             }  
         }
-        
+
         private void bt_Cancelar_Click(object sender, EventArgs e)
         {
             tx_nome.Clear();

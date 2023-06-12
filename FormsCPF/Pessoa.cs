@@ -28,7 +28,7 @@ public class Pessoa
     }
     public void SetCpf(string cpf)
     {
-        this.nome = cpf;
+        this.cpf = cpf;
     }
 
 

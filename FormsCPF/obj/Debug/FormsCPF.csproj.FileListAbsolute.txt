@@ -9,3 +9,4 @@ C:\Users\nicol\OneDrive\Documentos\IFRO\2º ANO\POO\2Bimestre\FormsCPF\FormsCPF\
 C:\Users\nicol\OneDrive\Documentos\IFRO\2º ANO\POO\2Bimestre\FormsCPF\FormsCPF\bin\Debug\FormsCPF.pdb
 C:\Users\nicol\OneDrive\Documentos\IFRO\2º ANO\POO\2Bimestre\FormsCPF\FormsCPF\obj\Debug\FormsCPF.exe
 C:\Users\nicol\OneDrive\Documentos\IFRO\2º ANO\POO\2Bimestre\FormsCPF\FormsCPF\obj\Debug\FormsCPF.pdb
+C:\Users\nicol\OneDrive\Documentos\IFRO\2º ANO\POO\2Bimestre\FormsCPF\FormsCPF\obj\Debug\FormsCPF.Segundo_Form.resources
